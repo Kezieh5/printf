@@ -3,14 +3,14 @@
 /************************* PRINT CHAR *************************/
 
 /**
- * @function print_char - Function to print a character.
- * @param types - A list of argument types.
- * @param buffer - An array buffer used for printing.
- * @param flags - Used to calculate active flags.
- * @param width - Specifies the width.
- * @param precision - Specifies the precision.
- * @param size - Specifies the size.
- * @return - Returns the number of characters printed.
+ * print_char - Prints a char
+ * @types: List a of arguments
+ * @buffer: Buffer array to handle print
+ * @flags: Calculates active flags
+ * @width: Width
+ * @precision: Precision specification
+ * @size: Size specifier
+ * Return: Number of chars printed
  */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -21,14 +21,14 @@ int print_char(va_list types, char buffer[],
 }
 /************************* PRINT A STRING *************************/
 /**
- * @function print_string - Function for printing a string.
- * @param types - An array of argument types.
- * @param buffer - An array buffer used for handling print operations.
- * @param flags - Used for calculating active flags.
- * @param width - Specifies the width.
- * @param precision - Specifies the precision.
- * @param size - Specifies the size.
- * @return - Returns the number of characters printed.
+ * print_string - Prints a string
+ * @types: List a of arguments
+ * @buffer: Buffer array to handle print
+ * @flags: Calculates active flags
+ * @width: get width.
+ * @precision: Precision specification
+ * @size: Size specifier
+ * Return: Number of chars printed
  */
 int print_string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -76,14 +76,14 @@ int print_string(va_list types, char buffer[],
 }
 /************************* PRINT PERCENT SIGN *************************/
 /**
- * @function print_percent - Function for printing a percent sign.
- * @param types - An array of argument types.
- * @param buffer - An array buffer used for handling print operations.
- * @param flags - Used for calculating active flags.
- * @param width - Specifies the width.
- * @param precision - Specifies the precision.
- * @param size - Specifies the size.
- * @return - Returns the number of characters printed.
+ * print_percent - Prints a percent sign
+ * @types: Lista of arguments
+ * @buffer: Buffer array to handle print
+ * @flags: Calculates active flags
+ * @width: get width.
+ * @precision: Precision specification
+ * @size: Size specifier
+ * Return: Number of chars printed
  */
 int print_percent(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -99,14 +99,14 @@ int print_percent(va_list types, char buffer[],
 
 /************************* PRINT INT *************************/
 /**
- * @function print_int - Function for printing an integer.
- * @param types - An array of argument types.
- * @param buffer - An array buffer used for handling print operations.
- * @param flags - Used for calculating active flags.
- * @param width - Specifies the width.
- * @param precision - Specifies the precision.
- * @param size - Specifies the size.
- * @return - Returns the number of characters printed.
+ * print_int - Print int
+ * @types: Lista of arguments
+ * @buffer: Buffer array to handle print
+ * @flags: Calculates active flags
+ * @width: get width.
+ * @precision: Precision specification
+ * @size: Size specifier
+ * Return: Number of chars printed
  */
 int print_int(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -143,14 +143,14 @@ int print_int(va_list types, char buffer[],
 
 /************************* PRINT BINARY *************************/
 /**
- * @function print_binary - Function for printing an unsigned number.
- * @param types - An array of argument types.
- * @param buffer - An array buffer used for handling print operations.
- * @param flags - Used for calculating active flags.
- * @param width - Specifies the width.
- * @param precision - Specifies the precision.
- * @param size - Specifies the size.
- * @return - Returns the number of characters printed.
+ * print_binary - Prints an unsigned number
+ * @types: Lista of arguments
+ * @buffer: Buffer array to handle print
+ * @flags: Calculates active flags
+ * @width: get width.
+ * @precision: Precision specification
+ * @size: Size specifier
+ * Return: Numbers of char printed.
  */
 int print_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
